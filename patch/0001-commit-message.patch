@@ -1,0 +1,37 @@
+From 15d2d84b1d1d8888a2fe5d0613de7652dd97ba07 Mon Sep 17 00:00:00 2001
+From: indiangcn <91374894+indiangcn@users.noreply.github.com>
+Date: Mon, 10 Jan 2022 19:38:19 +0530
+Subject: [PATCH] commit message
+
+---
+ lib/ui/success/order_success_screen.dart | 1 -
+ lib/ui/widget/quntity_button_widget.dart | 1 +
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/lib/ui/success/order_success_screen.dart b/lib/ui/success/order_success_screen.dart
+index d6cfbfa..bd4bca1 100644
+--- a/lib/ui/success/order_success_screen.dart
++++ b/lib/ui/success/order_success_screen.dart
+@@ -11,7 +11,6 @@ class OrderSuccessScreen extends StatefulWidget {
+ class _OrderSuccessScreenState extends State<OrderSuccessScreen> {
+   @override
+   void initState() {
+-    // TODO: implement initState
+     super.initState();
+   }
+ 
+diff --git a/lib/ui/widget/quntity_button_widget.dart b/lib/ui/widget/quntity_button_widget.dart
+index 1d954e5..99a2c98 100644
+--- a/lib/ui/widget/quntity_button_widget.dart
++++ b/lib/ui/widget/quntity_button_widget.dart
+@@ -9,6 +9,7 @@ class QuantityButton extends StatefulWidget {
+ 
+   @override
+   _QuantityButtonState createState() =>
++      // ignore: no_logic_in_create_state
+       _QuantityButtonState(quantity: initialQuantity);
+ }
+ 
+-- 
+2.32.0 (Apple Git-132)
+
