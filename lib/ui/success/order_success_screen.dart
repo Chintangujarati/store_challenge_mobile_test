@@ -11,7 +11,6 @@ class OrderSuccessScreen extends StatefulWidget {
 class _OrderSuccessScreenState extends State<OrderSuccessScreen> {
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
   }
 

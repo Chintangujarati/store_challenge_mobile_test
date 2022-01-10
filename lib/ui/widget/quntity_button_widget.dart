@@ -9,6 +9,7 @@ class QuantityButton extends StatefulWidget {
 
   @override
   _QuantityButtonState createState() =>
+      // ignore: no_logic_in_create_state
       _QuantityButtonState(quantity: initialQuantity);
 }
 
